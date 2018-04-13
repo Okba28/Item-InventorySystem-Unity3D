@@ -11,7 +11,7 @@ inside the radius. A message prompt saying "Press E to interact" is shown if tha
 and else. You can create this object by clicking right click in your assets, Create --> Inventory --> Item. Cool, huh? It must 
 be dragged into the Item public variable of a Game Object that holds the ItemPickUp script (see following).
 
-*ItemPickUp: this class receives Interactable's heritage, and defines the Item type of interactable 
+* ItemPickUp: this class receives Interactable's heritage, and defines the Item type of interactable 
 (the type of interactable you can pick up and store in your inventory). It must be attached to a Game Object.
 
 * Inventory: a class which defines an inventory based on an Item's list. It uses a singleton. It holds functions such as AddToInventory(), 
@@ -29,3 +29,5 @@ Simple!
 (You'll need to attach the Inventory script to the Player, and create an InventoryUI Textand a MessagePrompt UI text. Drag your InventoryUI
 text into the InventoryUI public variable of your Inventory script (should be in your Player if you attached Inventory class
 to it).) 
+
+This was made to improve my Zombie Runner game. Zombie Runner is one of the many projects of Learn to Code by Making Games, an amazing GameDev course on Unity and C#. 
